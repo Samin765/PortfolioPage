@@ -285,6 +285,8 @@ header a{
     align-items: center;
 }
 
+
+
 .arrows button{
     width:  50px;
     height: 50px;
@@ -329,19 +331,19 @@ header a{
 }
 
 .carousel .list .item:nth-child(1) .title{
-    animation-delay: 1.2s;
+    animation-delay: 0.8s;
 }
 
 .carousel .list .item:nth-child(1) .topic{
-    animation-delay: 1.4s;
+    animation-delay: 1s;
 }
 
 .carousel .list .item:nth-child(1) .desc{
-    animation-delay: 1.6s;
+    animation-delay: 1.2s;
 }
 
 .carousel .list .item:nth-child(1) .buttons{
-    animation-delay: 1.8s;
+    animation-delay: 1.4s;
 }
 
 .carousel.next .list .item:nth-child(1) img{

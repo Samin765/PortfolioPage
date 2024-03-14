@@ -15,7 +15,7 @@ prevDom.onclick = function(){
         window.location.href = 'https://open.spotify.com/track/3C7Nz7RC1aMfE1GFX0Dlqf?si=4d1cbe25eca148e8';
     };
 let timeRunning = 3000;
-let timeAutoNext = 7000;
+let timeAutoNext = 4500;
 let runTimeOut;
 let runAutoRun = setTimeout(() => {
     nextDom.click();
@@ -30,7 +30,7 @@ function showSlider(type){
         carouselDom.classList.add('next');
     }
     else{
-        let positionLastItem = itemSlider.length = 1;
+        let positionLastItem = itemSlider.length - 1;
         listItemDom.prepend(itemSlider[positionLastItem]);
         thumbnailDom.prepend(itemThumbnail[positionLastItem]);
         carouselDom.classList.add('prev');
