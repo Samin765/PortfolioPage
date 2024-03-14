@@ -147,7 +147,8 @@ header a{
 
 .carousel2 .list2 .item2 .content2 .desc2{
     font-weight: bold; 
-    font-size: 2em;
+    font-style: italic;
+    font-size: 1em;
     list-style: 1em;
 }
 
@@ -182,16 +183,29 @@ header a{
 
 .carousel .list .item .content button{
   border: none;
+  color: #1DB954;
   background-color: #eee;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   font-family: Poppins;
   font-weight: 500;
 }
+
+.carousel .list .item .content  button:hover{
+    color: #555;
+    cursor: pointer;
+
+}
+
 
 .carousel .list .item .content button:nth-child(2){
     background-color: transparent;
     color: #eee;
     border: 1px solid #eee;
+}
+
+.carousel .list .item .content button:nth-child(2):hover{
+    color: #555;
+    cursor: pointer;
 }
 
 

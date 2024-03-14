@@ -11,9 +11,67 @@ prevDom.onclick = function(){
     showSlider('prev');
 }
 
-    document.getElementById('button1').onclick = function() {
+document.getElementById('asmeSpotifyButton').onclick = function() {
         window.location.href = 'https://open.spotify.com/track/3C7Nz7RC1aMfE1GFX0Dlqf?si=4d1cbe25eca148e8';
-    };
+};
+
+document.getElementById('asmeGeniusButton').onclick = function() {
+    window.location.href = 'https://genius.com/Asme-untouchable-outro-lyrics';
+};
+
+document.getElementById('atGeniusButton').onclick = function() {
+    window.location.href = 'https://genius.com/A36-at-lyrics';
+};
+
+document.getElementById('atSpotifyButton').onclick = function() {
+    window.location.href = 'https://open.spotify.com/track/1QeTYlZFNKFzPaGWGRBfJd?si=4f1d1677207a4184';
+};
+
+document.getElementById('devilishGeniusButton').onclick = function() {
+    window.location.href = 'https://genius.com/Vc-barre-devilish-lyrics';
+};
+
+document.getElementById('devilishSpotifyButton').onclick = function() {
+    window.location.href = 'https://open.spotify.com/track/21qmv5S238wxa9ZDiwbllJ?si=f4683d8d2a624e25';
+};
+
+document.getElementById('jdGeniusButton').onclick = function() {
+    window.location.href = 'https://genius.com/Ricky-rich-j-d-lyrics';
+};
+
+document.getElementById('jdSpotifyButton').onclick = function() {
+    window.location.href = 'https://open.spotify.com/track/4pxrY2jNvjG6FQu6v9d9df?si=22da2dafbd614d3f';
+};
+
+
+document.getElementById('mannGeniusButton').onclick = function() {
+    window.location.href = 'https://genius.com/G1ocatore-mannequins-lyrics';
+};
+
+document.getElementById('mannSpotifyButton').onclick = function() {
+    window.location.href = 'https://open.spotify.com/track/2uMotJtjJomshzpQcV6pSM?si=1f9765fa016c4f7b';
+};
+
+document.getElementById('flightGeniusButton').onclick = function() {
+    window.location.href = 'https://genius.com/Kristian-mecha-flightmode-lyrics';
+};
+
+document.getElementById('flightSpotifyButton').onclick = function() {
+    window.location.href = 'https://open.spotify.com/track/1O1dVflkvI0TT1zxNIO3OQ?si=4ce55b938d0e46a2';
+};
+
+document.getElementById('gårsönderSpotifyButton').onclick = function() {
+    window.location.href = 'https://open.spotify.com/track/7fjDMaPfyBkpxMNjwdPaFk?si=b20c1721830840d8';
+};
+
+
+document.getElementById('delliSpotifyButton').onclick = function() {
+    window.location.href = 'https://open.spotify.com/track/7GynlLqVh7TspWVo7SOEz3?si=c1cb45b738544322';
+};
+
+
+
+
 let timeRunning = 3000;
 let timeAutoNext = 4500;
 let runTimeOut;
