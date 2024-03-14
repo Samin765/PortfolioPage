@@ -69,6 +69,14 @@ document.getElementById('delliSpotifyButton').onclick = function() {
     window.location.href = 'https://open.spotify.com/track/7GynlLqVh7TspWVo7SOEz3?si=c1cb45b738544322';
 };
 
+document.getElementById('museum').onclick = function() {
+    window.location.href = 'https://www.varldskulturmuseerna.se/en/';
+};
+
+document.getElementById('github').onclick = function() {
+    window.location.href = 'https://github.com/Samin765';
+};
+
 
 
 
