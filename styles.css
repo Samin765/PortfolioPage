@@ -70,14 +70,28 @@ header a{
 
 .carousel .list .item .content .author{
     font-weight: bold; 
-    letter-spacing: 8px;
+    font-size: 5em;
+    letter-spacing: 2px;
 }
 
-.carousel .list .item .content .title, .carousel .list .item .content .topic{
+.carousel .list .item .content .title{
     font-weight: bold; 
-    font-size: 5em;
+    font-size: 3.5em;
     list-style: 1.3em;
 }
+
+.carousel .list .item .content .topic{
+    font-weight: bold; 
+    font-size: 1em;
+    list-style: 1.3em;
+}
+
+.carousel .list .item .content .desc{
+    font-weight: bold; 
+    font-size: 2em;
+    list-style: 1em;
+}
+
 
 .carousel .list .item .content .title{
     color: #d4af37
@@ -160,10 +174,10 @@ header a{
 }
 
 .arrows button{
-    width:  40px;
-    height: 40px;
+    width:  50px;
+    height: 50px;
     border-radius: 50%;
-    background-color: #eee4;
+    background-color: rgba(0, 0, 0, 0.267);
     border: none;
     font-family: monospace;
     color: #fff;
@@ -344,4 +358,14 @@ header a{
     .carousel .list .item .content .title{
         font-size: 30px;
     }
+}
+
+footer {
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }

@@ -10,6 +10,10 @@ nextDom.onclick = function(){
 prevDom.onclick = function(){
     showSlider('prev');
 }
+
+    document.getElementById('button1').onclick = function() {
+        window.location.href = 'https://open.spotify.com/track/3C7Nz7RC1aMfE1GFX0Dlqf?si=4d1cbe25eca148e8';
+    };
 let timeRunning = 3000;
 let timeAutoNext = 7000;
 let runTimeOut;
